@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SampleVolley</string>
+
+    <string-array name="type">
+        <item>staff</item>
+        <item>student</item>
+        <item>faculty</item>
+        <item></item>
+    </string-array>
+</resources>

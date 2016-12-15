@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg2"
+
+    tools:context=".activity.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="APC Library "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:id="@+id/textView6"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/apclogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="BORROW BOOK"
+        android:background="#ffad09"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="BORROWED BOOKS"
+        android:background="#ffad09"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:text="REMOVE"
+        android:background="#ffad09"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Update INFORMATION"
+        android:background="#ffad09"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button3"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button5" />
+</RelativeLayout>

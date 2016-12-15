@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Borrowed Books"
+        android:textColor="#000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/button2"
+        android:background="#ffad09"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="137dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/apclogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:text="APC Library "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:id="@+id/textView6"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
